@@ -1,3 +1,125 @@
 @charset "UTF-8";
 
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+:root {
+    --cor-fundo: rgba(173, 173, 173, 0.685);
+    --cor-sigla: chocolate;
+    --cor-mencao: rgb(85, 144, 184);
+    
+
+    --fonte-perso: Inter;
+}
+
+header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: var(--cor-fundo);
+    
+}
+
+header > h1 {
+    text-align: center;
+    
+    padding: 25px 10px 40px 25px;
+}
+
+header > h1 > abbr {
+    text-decoration: none;
+    color: rgb(156, 50, 50);
+}
+
+nav {
+
+   /* Se desejar o menu no centro, retire o comentário
+    display: flex;
+    justify-content: center; */
+    align-items: center;
+    font-size: 1.1rem;
+    padding-bottom: 2px;  
+}
+
+nav > a {
+    margin-left: 5px;
+}
+
+nav > a:hover {
+    text-decoration: none;
+    background-color: rgb(156, 50, 50);
+    box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.555);
+    border-radius: 5px;
+    padding-left: 2px;
+    padding-right: 2px;
+    color: white;
+}
+
+main {
+    background-color: var(--cor-fundo);
+    margin-top: 50px;
+}
+
+main > section > a > h1 > abbr {
+    text-decoration: none;
+}
+
+main > section > article > a {
+    text-decoration: none;
+    color: black;
+}
+
+article.copa {
+    display: inline-flex;
+
+    background-image: url();
+    background-color: blue;
+    width:  450px;
+    height: 400px;
+    padding-top:  10px;
+}
+
+main > section > article > a > p {
+    text-align: center;
+
+}
+
+@media (min-width: 500px) and (max-width: 900px){
+    
+    
+    /* Configurações do menu para dispositivos móveis*/
+    nav {
+        display: flex;
+        justify-content: center;
+      
+    }
+
+    header {
+        padding-bottom: 10px;
+    }
+}
+
+
+main > h1 {
+    font-family: Inter;
+}
+
+.sigla {
+    text-decoration: none;
+    color: var(--cor-sigla);
+
+}
+
+.mencao
+
+.foco {
+    
+}
+
+.escondido {
+
+}
