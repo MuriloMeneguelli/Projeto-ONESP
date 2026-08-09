@@ -1,11 +1,197 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ONESP - Origem</title>
+    <title>ONESP - Origens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicons/onesp-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicons/onesp-16x16.png">
+    <link rel="manifest" href="favicons/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+
+        header {
+            display: flex;
+            justify-content: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.5rem;
+            background-color: rgb(156, 50, 50);
+            color: white;
+        }
+
+        header>h1 {
+            text-align: center;
+            padding: 25px 10px 40px 25px;
+        }
+
+        header>h1>abbr {
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+        main {
+            display: flex;
+            justify-content: space-around;
+            font-family: Inter;     
+        }
+
+        h1 {
+            
+            font-size: 2.8rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .img-apr {
+            width: 400px;
+            border-radius: 15px;
+            
+        }
+
+        /*
+        cor: #A63737*/
+
+        .apresentação {
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding-top: 40px;
+            border-radius: 15px;
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.664);
+            width: 50%;
+            font-family: Inter;
+            align-items: center;
+            margin: 40px auto 40px auto;
+            background-color: rgb(0, 0, 0, 0.692)
+        }
+
+        
+        .layout-qms {
+            background-color: antiquewhite;
+            box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.767);
+            width: 400px;
+            text-align: justify;
+            border-radius: 15px;
+            padding: 15px;
+            margin-bottom: 40px;
+            background-color: rgba(0, 0, 0, 0.692);
+        }
+
+        .titulo-principal {
+            color: rgb(156, 50, 50);
+            text-align: center;
+            padding-bottom: 15px;
+            padding-top: 15px;
+        }
+
+        .conteudo-principal {
+            
+            color: rgba(255, 255, 255, 0.671);
+            text-align: justify;
+            border-radius: 15px;
+            padding: 15px;
+            background-color: rgb(156, 50, 50)
+
+        }
+
+        abbr {
+            text-decoration: none;
+            color: black;
+        }
+
+        .criador {
+            color: black;
+            text-decoration: none;
+        }
+        
+        .paragr{
+            padding-bottom: 15px;
+            line-height: 25px;
+        }
+
+        .img-conteudo-principal {
+            width: 100%;
+            border-radius: 15px;
+        }
+
+       .conteudo-section {
+        width: 50%;
+        padding-bottom: 15px;
+       }
+
+       ul {
+        
+        padding-bottom: 15px;
+       }
+
+        figcaption {
+            padding-top: 10px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <h1><abbr title="Orgulho Noticiário do Estado de São Paulo">ONESP</abbr></h1>
+    </header>
+        <section class="apresentação">
+            <img src="imagens/onesp.jpg" alt="" class="img-apr">
+            <h1>Conheça a <abbr title="Orgulho Noticiário do Estado de São Paulo">ONESP</abbr></h1>
+            <p class="conteudo-section"> Olá caro leitor, seja bem vindo á página de apresentação da ONESP, interessado para saber mais da nossa história? Continue descendo. Mas, antes deixe-me apresentar as sessões que você veja abaixo. Seram três sessões ao todo sendo elas: </p>
+            <div>
+                <ul>
+                    <li>Sessão de "Quem Somos?"</li>
+                    <li>Sessão de "Motivação por trás?"</li>
+                    <li>Sessão de "Dificuldades enfrentadas..."</li>
+                </ul>
+            </div>
+        </section>
+    <main>
+        <section class="layout-qms">
+            <h1 class="titulo-principal">Quem Somos? ⬇</h1>
+            <article class="conteudo-principal">
+                <p class="paragr">A <abbr title="Orgulho Noticiário do Estado de São Paulo">ONESP</abbr> surgiu como
+                    uma ideia de um estudante curioso, o nome desse estudante?
+                    <a target="_blank" rel="external" href="https:/github.com/murilomeneguelli/" class="criador"><abbr
+                            title="Criador e Patenteador" class="criador">Murilo Meneguelli.</abbr></a> E então Murilo
+                    foi lá e fez! surgiu apenas como um motivo de testar seus conhecimentos em HTML e CSS. E aqui estou
+                    eu...Quero dizer - e aqui está o programador desenvolvendo o projeto com 100% de dedicação e
+                    esforço.
+                </p>
+                <img class="img-conteudo-principal" src="imagens/ONESP-primeira-versão.png" alt="Primeira versão site ONESP">
+                <figcaption>Foto por: ONESP</figcaption>
+            </article>
+        </section>
+        <section class="layout-qms">
+            <h1 class="titulo-principal">Motivação por trás? ⬇</h1>
+                <article class="conteudo-principal">
+                    <p class="paragr">Como foi dito anteriormente, a motivação inicial não foi por um motivo extraordinário, apenas decidi que queria criar uma página web de "notícias" para testar meus conhecimentos e apresentar o resultado para o mundo></p>
+                    <img class="img-conteudo-principal" src="imagens/estudo.jpg" alt="Estudo">
+                    <figcaption>Foto por: ONESP</figcaption>
+                </article>
+            
+        </section>
+        <section class="layout-qms">
+            <h1 class="titulo-principal"></h1>
+                <article class="conteudo-principal">
+                    <p class="paragr"><a href="" class="criador"><abbr title=""></abbr></a></p>
+                    <img class="img-conteudo-principal" src="" alt="">
+                </article>
+            
+        </section>
+    </main>
 </body>
+
 </html>
