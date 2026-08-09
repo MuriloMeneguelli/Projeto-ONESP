@@ -16,4 +16,9 @@ Estilização organizada e bem pensada.
 Páginação completa das notícias.
 
 
-https://projeto-onesp.vercel.app
+ Link do projeto: 
+ 
+ https://projeto-onesp.vercel.app
+
+
+Incompleto (08/08/26)
