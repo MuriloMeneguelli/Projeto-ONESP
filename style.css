@@ -20,8 +20,8 @@
 header {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5rem;
-    background-color: var(--cor-fundo);
-
+    background-color: rgb(156, 50, 50);
+    color: white;
     
     
 }
@@ -33,7 +33,7 @@ header > h1 {
 
 header > h1 > abbr {
     text-decoration: none;
-    color: rgb(156, 50, 50);
+    color: rgb(0, 0, 0);
 }
 
 nav {
@@ -46,16 +46,18 @@ nav {
 nav > a {
     display: flex;
     margin-left: 5px;
+    color: white;
+    text-decoration: none;
 }
 
 nav > a:hover {
     text-decoration: none;
-    background-color: rgb(156, 50, 50);
+    background-color: rgb(255, 255, 255);
     box-shadow: 4px 7px 8px rgba(0, 0, 0, 0.555);
     border-radius: 5px;
     padding-left: 2px;
     padding-right: 2px;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 main {
@@ -65,7 +67,7 @@ main {
 
 
 
-@media (min-width: 500px) and (max-width: 900px){
+@media (min-width: 400px) and (max-width: 900px){
     
     
     /* Configurações do menu para dispositivos móveis*/
@@ -77,6 +79,12 @@ main {
 
     header {
         padding-bottom: 10px;
+    }
+
+    /*Configurações dos articles para dispositivos móveis*/
+
+    article.layout-base-art {
+        font-size: 0.74rem;
     }
 }
 
@@ -106,4 +114,22 @@ img.redondinha {
     padding: 10px;
     width: 380px;
     height: 250px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+footer > a {
+    text-decoration: none;
+    color: rgb(156, 50, 50);
+}
+
+footer > a:hover { 
+    text-decoration: underline;
 }
